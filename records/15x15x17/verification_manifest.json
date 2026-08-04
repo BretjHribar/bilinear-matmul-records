@@ -1,0 +1,33 @@
+{
+  "schema": "bilinear-matmul-record/v1",
+  "field": "GF(2)",
+  "tensor": [15, 15, 17],
+  "operation": "(15x15) times (15x17) -> (15x17)",
+  "rank": 2256,
+  "certificate": "matmul_15x15x17_rank2256_gf2.txt",
+  "encoding": {
+    "type": "decimal-bitmask-triples",
+    "coordinate_order": "row-major",
+    "u_coordinates": 225,
+    "v_coordinates": 255,
+    "w_coordinates": 255
+  },
+  "source_header": {
+    "outer": "outer47_15x15x17_f2256.txt",
+    "allocation_n": [3, 4, 4, 4],
+    "allocation_m": [4, 4, 4, 3],
+    "allocation_p": [4, 5, 4, 4]
+  },
+  "verifiers": [
+    "verify_15x15x17_rank2256_gf2.py",
+    "verify_15x15x17_rank2256_gf2.cpp"
+  ],
+  "expected_checks": {
+    "parsed_terms": 2256,
+    "duplicate_triples": 0,
+    "target_coefficients": 3825,
+    "brent_coefficients": 14630625,
+    "residual_coefficients": 0
+  },
+  "publication_note": "Certificate bytes are retained unchanged from the supplied attachment. No additional verification run was performed during the repository-initialization step at the user's instruction."
+}
