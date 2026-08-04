@@ -1,0 +1,11 @@
+{
+  "schema": "bilinear-matmul-record/v1",
+  "field": "GF(2)",
+  "tensor": [8, 12, 12],
+  "rank": 705,
+  "certificate": "matmul_8x12x12_rank705_gf2.txt",
+  "construction": {"type": "tensor-product field-aware substitution", "factor_ranks": [47, 15]},
+  "comparison": {"catalogue": "FMM-Lille", "catalogue_rank": 720, "catalogue_url": "https://fmm.univ-lille.fr/8x12x12.html", "scope": "numerical GF(2) comparison"},
+  "verifiers": ["verify_8x12x12_rank705_gf2.py", "verify_8x12x12_rank705_gf2.cpp"],
+  "expected_checks": {"parsed_terms": 705, "target_coefficients": 1152, "brent_coefficients": 1327104, "residual_coefficients": 0}
+}

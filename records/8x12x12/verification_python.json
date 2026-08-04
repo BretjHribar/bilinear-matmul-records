@@ -1,0 +1,15 @@
+{
+  "brent_coefficients": 1327104,
+  "declared_rank": 705,
+  "expanded_uv_pairs": 22400,
+  "rank": 705,
+  "residual_coefficients": 0,
+  "sha256": "bb8c8c7799a547702415955d1746b448dc5a610774a474ef5d608206de570935",
+  "target_coefficients": 1152,
+  "tensor": [
+    8,
+    12,
+    12
+  ],
+  "verified": true
+}

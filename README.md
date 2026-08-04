@@ -7,6 +7,8 @@ Brent-equation verifiers for two exact non-commutative tensor decompositions:
 |---|---:|---|
 | `<19,19,19>` | 3,987 | [`records/19x19x19`](records/19x19x19/) |
 | `<15,15,17>` | 2,256 | [`records/15x15x17`](records/15x15x17/) |
+| `<8,8,8>` | 329 | [`records/8x8x8`](records/8x8x8/) |
+| `<8,12,12>` | 705 | [`records/8x12x12`](records/8x12x12/) |
 
 Each term is `U V W`, where the three nonzero decimal integers encode row-major
 binary coefficient masks. The sum of `U_t tensor V_t tensor W_t` is evaluated
