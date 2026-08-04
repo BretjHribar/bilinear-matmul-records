@@ -1,0 +1,22 @@
+{
+  "bad_term_indices": [],
+  "brent_coefficients": 14630625,
+  "certificate": "repo/records/15x15x17/matmul_15x15x17_rank2256_gf2.txt",
+  "declared_rank": 2256,
+  "duplicate_triples": 0,
+  "expanded_uv_pairs": 401864,
+  "expected_rank": 2256,
+  "nonzero_and_in_range": true,
+  "parsed_terms": 2256,
+  "residual_coefficients": 0,
+  "residual_pair_slices": 0,
+  "seconds": 0.05166470299991488,
+  "sha256": "f55d9397ba2d2e41a9265629cf9e3d7193cc7a36dac6a9b950e6ed39139ff96f",
+  "target_coefficients": 3825,
+  "tensor": [
+    15,
+    15,
+    17
+  ],
+  "verified": true
+}

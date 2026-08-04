@@ -29,5 +29,5 @@
     "brent_coefficients": 14630625,
     "residual_coefficients": 0
   },
-  "publication_note": "Certificate bytes are retained unchanged from the supplied attachment. No additional verification run was performed during the repository-initialization step at the user's instruction."
+  "publication_note": "Certificate bytes are retained unchanged from the supplied attachment and were independently verified with zero residual by the Python and C++ verifiers."
 }

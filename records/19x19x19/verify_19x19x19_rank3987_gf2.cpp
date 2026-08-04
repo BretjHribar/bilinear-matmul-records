@@ -12,8 +12,8 @@ static std::vector<int> bits(const Big&x) { std::vector<int> r;for(size_t k=0;k<
 static bool zero(const Big&x){return x.size()==1&&x[0]==0;}
 static int top(const Big&x){auto b=bits(x);return b.empty()?-1:b.back();}
 int main(int argc,char**argv){
-  if(argc!=2){std::cerr<<"usage: verify_15x15x17_rank2256_gf2 FILE\n";return 2;}
-  int n=15,m=15,p=17;
+  if(argc!=2){std::cerr<<"usage: verify_19x19x19_rank3987_gf2 FILE\n";return 2;}
+  int n=19,m=19,p=19;
   std::ifstream in(argv[1]); if(!in){std::cerr<<"FAIL: open\n";return 1;}
   std::vector<Term> ts; std::string line; long declared=-1;
   while(std::getline(in,line)){if(line.empty()||line[0]=='#')continue;std::istringstream s(line);std::string a,b,c,d;s>>a;

@@ -12,6 +12,8 @@ over `GF(2)` using 2,256 scalar multiplications.
 - `verify_15x15x17_rank2256_gf2.py` — independent exhaustive Python verifier.
 - `verify_15x15x17_rank2256_gf2.cpp` — independent exhaustive C++ verifier.
 - `verification_manifest.json` — dimensions, format, expected invariants, and provenance.
+- `DERIVATION.md` — technique and reconstruction provenance.
+- `verification_python.log` and `verification_cpp.log` — successful runs.
 - `SHA256SUMS` — SHA-256 digests for the retained files in this directory.
 
 ## Certificate format

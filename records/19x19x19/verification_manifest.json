@@ -1,0 +1,11 @@
+{
+  "schema": "bilinear-matmul-record/v1",
+  "field": "GF(2)",
+  "tensor": [19, 19, 19],
+  "rank": 3987,
+  "certificate": "matmul_19x19x19_rank3987_gf2.txt",
+  "encoding": {"type": "decimal-bitmask-triples", "coordinate_order": "row-major", "u_coordinates": 361, "v_coordinates": 361, "w_coordinates": 361},
+  "construction": {"outer_rank": 47, "allocation_n": [4,5,5,5], "allocation_m": [5,5,5,4], "allocation_p": [4,5,5,5], "leaf_rank": 93},
+  "verifiers": ["verify_19x19x19_rank3987_gf2.py", "verify_19x19x19_rank3987_gf2.cpp"],
+  "expected_checks": {"parsed_terms": 3987, "target_coefficients": 6859, "brent_coefficients": 47045881, "residual_coefficients": 0}
+}
